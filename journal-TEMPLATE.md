@@ -4,10 +4,8 @@
 
 ## Which Python tool is most important for security?
 
-[WRITE YOUR ANSWER HERE — pick ONE of try/except, type conversion,
-input validation, and defend your choice in 2-3 sentences.]
+Input validation is the most important tool for security because it acts as the proactive first line of defense before untrusted data can reach the system. While try/except catches runtime crashes and type conversion only formats data types, input validation actively enforces boundaries and business rules to prevent dangerous or quietly wrong values. Without rigorous validation, a program may not crash, but it can still execute harmful or logically invalid operations.
 
 ## Is a completely crash-proof program possible?
+A completely crash-proof program is theoretically impossible because developers cannot foresee every conceivable edge case, malicious input, or unexpected hardware and environment failure. The class discussion shifted my perspective from aiming for complete perfection to practicing defensive programming, which aims to make a program "less unsafe." Instead of silently failing or hiding problems, a good program must fail gracefully and communicate honestly with the user.
 
-[WRITE YOUR ANSWER HERE — 2-3 sentences. What did the class
-discussion change about your first answer?]
